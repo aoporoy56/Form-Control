@@ -60,7 +60,7 @@ class MyForm extends Component{
                         <FORM.Control type="password" name='password' onChange={this.passwordEvent}  value={password}/>
                     </FORM.Group>
                     <div className='mt-3'>
-                        <BUTTON className='me-3' varient="" onClick={this.submitEven}>Submit</BUTTON>
+                        <BUTTON type='submit' className='me-3' varient="" onClick={this.submitEven}>Submit</BUTTON>
                         <BUTTON variant="danger" onClick={this.cleanData}>Clean</BUTTON>
                     </div>
                     </FORM>
