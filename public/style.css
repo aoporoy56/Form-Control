@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 360px;
+    
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+.resultText{
+    font-size: 16px;
+    margin: 0;
+}
